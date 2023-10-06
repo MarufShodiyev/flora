@@ -200,15 +200,67 @@
 }
 
 @media screen and (max-width:475px){
+
+    .home__wrapper h1{
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .home__wrapper p{
+        font-size: 18px;
+        max-width: 350px;
+    }
+    .home__number h6{
+        font-size: 18px;
+    }
+
+    .about__wrapper h2{
+        font-size: 30px;
+        
+    }
+    .about__wrapper p{
+        max-width: 300px;
+    }
+
+    .service__wrapper h2{
+        font-size: 30px;
+    }
+
+    .service__wrapper ul li .service__info{
+        right: 30%;
+    }
+
+    .service__wrapper ul li.left .service__info{
+        left: 30%;
+    }
+    
     .fa-bars:before{
         margin-right: -111px;
     }
-    .home__wrapper p{
-        font-size: 20px;
-    }
+    
 
     .service__wrapper ul li .service__img {
         aspect-ratio: 1.5/1;
     }
 
+    .new-property__wrapper h2{
+        font-size: 30px;
+    }
+    .new-property__wrapper ul li h4{
+        font-size: 20px;
+    }
+
+    .contact__wrapper h2{
+        font-size: 30px;
+    }
+    .contact__info .contact__img img{
+        width: 300px;
+        height: 300px;
+        margin: 0px auto;
+    }
+    .contact__users{
+        flex-direction: column;
+    }
+    .contact__info .contact__info--title{
+        height: 400px;
+    }
 }
